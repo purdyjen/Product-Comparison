@@ -59,6 +59,8 @@ body {
   margin: 0;
   /* hides the text on the other elements */
   opacity: 0;
+  color: white;
+  background: rgba(0,0,0,0.5)
 }
 
 .panel.active {
