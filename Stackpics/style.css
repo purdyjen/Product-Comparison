@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+  box-sizing: border-box;            /* sets how the total width and height of an element is calculated */ 
+}
+body {
+  font-family: 'Muli', sans-serif; /* property specifies the font for an element.*/ 
+  display: flex;                  /* Containers next to each other like a row */ 
+  align-items: center;           /* Items are positioned at the center of the container */ 
+  justify-content: center;      /* Pack items around the center */ 
+  height: 100vh;               /* 100vh=100 % viewport; which means it shows 100 percent of any elements height */ 
+  overflow: hidden;           /* only shows text upto how much space in the box */ 
+  margin: 0;                 /* Makes the container and element to auto fit width and height */ 
+}
+.container {
+  display: flex;          /* Containers next to each other like a row */ 
+  width: 90vw;           /* */ 
+}
+.panel {
+  background-size: cover;                 /* */ 
+  background-position: center;           /* */ 
+  background-repeat: no-repeat;         /* */ 
+  height: 80vh;                        /* */ 
+  border-radius: 50px;                /* */ 
+  color: #fff;                     /* */ 
+  cursor: pointer;                  /* */ 
+  flex: 0.5;                       /* */ 
+  margin: 10px;                   /* */ 
+  position: relative;            /* */ 
+  -webkit-transition: all 700ms ease-in;    /* */ 
+}
+.panel h3 {
+  font-size: 24px;                        /* */ 
+  position: absolute;                    /* */ 
+  bottom: 20px;                         /* */ 
+  left: 20px;                          /* */ 
+  margin: 0;                          /* */ 
+  opacity: 0;                        /* */ 
+} 
+.panel.active {
+  flex: 5;                        /* */ 
+}
+.panel.active h3 {
+  opacity: 1;                  /* */ 
+  transition: opacity 0.3s ease-in 0.4s;        /* */ 
+}
+@media (max-width: 480px) {                   /* */ 
+  .container {
+    width: 100vw;                           /* */ 
+  }
+  .panel:nth-of-type(4),                  /* */ 
+  .panel:nth-of-type(5) {                /* */ 
+    display: none;                      /* */ 
+  }
+}
