@@ -83,3 +83,22 @@ body {
     display: none;
   }
 }
+
+.landing_page{
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  left: 50%;
+  top: 2%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0) solid 0.2rem;
+  font-size: 1rem;
+  width: 5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(61, 59, 59);
+  border-color: rgb(61, 59, 59);
+}
