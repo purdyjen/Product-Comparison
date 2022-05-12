@@ -1,64 +1,51 @@
-<!-- Websites are best designed using the concept "separation of concerns." HTML handles the source content of a website with minimally embedded style -->
 <!DOCTYPE html>
-<!-- This tells the computer that this is an html file -->
 <html lang="en">
-  <!-- Beginning of document code and tells the browser the language is English. -->
-  <head>
-    <!-- The head tag is used to contain metadata about the HTML document. This data is not displayed to the user. -->
-    <meta charset="UTF-8" />
-    <!-- defines the character set used -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Unnecessary unless you must support legacy browsers. More info here: https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- sets the viewport to (help) make your website look good on all devices -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- This attribute "rel" names a relation between the current document and the style.css document -->
+    <!-- the "href" attribute names the link or the document linked to the current document -->
     <link rel="stylesheet" href="style.css" />
-    <!-- The link element defines the relationship between the current document and an external resource. Most often used to link external style sheets -->
-    <title>Android</title>
-    <!-- The title element defines the title, very important for SEO -->
-  </head>
-  <body>
-    <!-- defines the document's body -->
-    <div class="menu">
-      <h4>home</h4>
-    </div>
-    <div class="container">
-      <!-- defines a section in a document, but semantically vague -->
-      <div
-        class="panel active"
-        style="background-image: url('images/market-share.jpeg')"
-      >
-        <!-- sets the background image of an html element -->
-        <h3>Market Share
-        </h3>
-        <!-- defines the HTML headings, levels 1-6 available with 1 being the most important (and often largest) -->
-      </div>
-      <div
-        class="panel"
-        style="background-image: url('images/home.jpg')"
-      >
-        <h3>Home Screen</h3>
-      </div>
-      <div
-        class="panel"
-        style="background-image: url('images/google-play.png')"
-      >
-        <h3>Play Store</h3>
-      </div>
-      <div
-        class="panel"
-        style="background-image: url('images/google-assistant.jpg')"
-      >
-        <h3>Google Assistant</h3>
-      </div>
-      <div
-        class="panel"
-        style="background-image: url('images/widgets.jpeg')"
-      >
-        <h3>Widgets</h3>
-      </div>
-    </div>
+    <!-- This is the title of the page -->
+    <title>Egypt Slideshow</title>
 
-    <script src="script.js"></script>
-    <!-- defines a client-side script, links an external script file, among the last of the files to be rendered, which is standard practice so that the html and css render first -->
-  </body>
+</head>
+<!-- This is the body of webpage -->
+<body>
+  <a href="../index.html" class="landing_page">Home</a>
+  <!-- the div element has no actualy meaning. it mainly works as a container -->
+    <div class="container">
+      <!-- the "style" attribute deicdes how your element is going to look like on your page and it contains the url of your element -->
+        <div class="panel active" style="background-image: url('https://www.popsci.com/uploads/2021/10/29/Best-Android-Phones-Header.jpg?auto=webp?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+          <!-- the "h3" element is a heading font size -->
+          <h3>Variety of Designs</h3>
+          <!-- the div element has no actualy meaning. it mainly works as a container -->
+        </div>
+        <div class="panel" style="background-image: url('https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/07/07/AndroidSecurityHero-01.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')">
+             <!-- the "h3" element is a heading font size -->
+          <h3>Security: More Vulnerable to Attacks</h3>
+          <!-- the div element has no actualy meaning. it mainly works as a container -->
+        </div>  
+        <div class="panel" style="background-image: url('https://i.ytimg.com/vi/2tPtHNgH8yk/maxresdefault.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')">
+            <!-- the "h3" element is a heading font size -->
+          <h3>Highly Customiziable</h3>
+        </div>
+          <!-- the div element has no actualy meaning. it mainly works as a container -->
+        <div class="panel" style="background-image: url('https://cdn.wccftech.com/wp-content/uploads/2019/07/Google-assistant.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')">
+             <!-- the "h3" element is a heading font size -->
+          <h3>Virtual Assistant: Google Assistant</h3>
+        </div>
+          <!-- the div element has no actualy meaning. it mainly works as a container -->
+        <div class="panel" style="background-image: url('https://9to5google.com/wp-content/uploads/sites/4/2021/10/google-android-12-widgets.jpeg?quality=82&strip=all?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+             <!-- the "h3" element is a heading font size -->
+          <h3>Android Widgets</h3>
+          <!-- the div element has no actualy meaning. it mainly works as a container -->
+        </div>
+      </div>
+  <!-- this line links the JavaScript document to the the current document -->
+      <script src="script.js"></script>
+      <!-- This is the body of webpage -->
+</body>
 </html>
+
