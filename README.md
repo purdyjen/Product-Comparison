@@ -18,4 +18,5 @@ Landing page:
 * Inviting the user to select one to show more information
 * Show a slideshow of pros and cons of the two operating systems
 
-
+Website link:
+https://purdyjen.github.io/Product-Comparison/
