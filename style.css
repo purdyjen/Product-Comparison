@@ -92,14 +92,14 @@ h1 {
 
 .split.left {
     left: 0;
-    background: url('images/ps.jpg');
+    background: url('images/Apple Blueburst!.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .split.right {
     right: 0;
-    background: url('images/xbox.jpg');
+    background: url('images/Android.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -19,6 +19,7 @@ Inviting the user to select one to show more information
 CTA tbd
 
 
+
 ## References/Images Used
 
 - https://krispitech.com/wp-content/uploads/2018/12/How-to-Upload-Android-App-to-Google-Play-Store.png (Play Store)
@@ -30,3 +31,10 @@ CTA tbd
 - https://cdn.mos.cms.futurecdn.net/GjirUEf4kEHbz8vxPhbhhE.jpg (Google Assistant)
 - https://www.xda-developers.com/files/2021/05/Android-12-Widget-Examples.jpg (Android Widgets)
 - https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone12-pro-widgets-today-view.png
+
+
+
+
+
+Sadia:
+Home page Apple pic https://www.pinterest.com/pin/557320522607520677/?mt=login
